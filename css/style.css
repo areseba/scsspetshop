@@ -1,0 +1,303 @@
+.contenedor-superior {
+  background-color: #222222;
+  color: #F3F3F3;
+  font-size: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  padding-right: 100px;
+  padding-left: 100px;
+  height: 20px;
+}
+.contenedor-superior .lista-superior {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+
+.contenedor-menu {
+  height: 62px;
+  background-color: #F0A83E;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.contenedor-menu .logotipo {
+  font-weight: bold;
+  color: #FFFFFF;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+.contenedor-menu .logotipo .texto-front {
+  color: #3C2313;
+}
+.contenedor-menu .logotipo .logo {
+  height: 20px;
+}
+
+.menu {
+  color: #FFFFFF;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu .lista-menu {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+
+.lista-menu img {
+  visibility: hidden;
+}
+
+.lista-menu li:hover::before {
+  content: url(../img/pawprint\ 1.png);
+}
+
+.contenedor-baner {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+  background-size: cover;
+  height: 700px;
+}
+.contenedor-baner .texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  gap: 15px;
+  margin-right: 10px;
+}
+.contenedor-baner .texto .bienvenida {
+  background-color: #FFFFFF;
+  font-size: 30px;
+  font-weight: 365px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.contenedor-baner .texto .producto-titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 40px;
+  font-size: 16px;
+}
+.contenedor-baner .texto .producto-tipo {
+  color: #F3F3F3;
+  background-color: #F0A83E;
+  padding: 18px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.producto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 40px;
+}
+.producto .destacados {
+  font-size: 40px;
+  align-self: center;
+  color: #3C2313;
+}
+.producto .link {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 30px;
+  color: #666666;
+}
+.producto .imagen-producto {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.producto .imagen-producto .lista-producto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FBFAF6;
+  width: 265px;
+  height: 312px;
+  color: #3C2313;
+  font-size: 15px;
+  font-weight: bold;
+}
+.producto .imagen-producto .lista-producto .precio {
+  color: #F0A83E;
+  font-weight: bold;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 50px;
+}
+.contacto .titulo-contacto {
+  font-size: 25px;
+  color: #3C2313;
+  font-weight: bold;
+}
+.contacto .cajaformulario {
+  display: flex;
+  font-weight: 300;
+}
+.contacto .cajaformulario .caja {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 50%;
+  padding: 10px 10px 10px;
+}
+.contacto .cajaformulario .caja .nombreformulario {
+  color: #FFFFFF;
+  background-color: #3C2313;
+  margin: 10px;
+  padding: 15px;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 15px;
+  width: 340px;
+  height: 40px;
+}
+.contacto .cajaformulario .caja input:focus {
+  background-color: #F0A83E;
+}
+.contacto .boton {
+  display: flex;
+  gap: 10px;
+}
+.contacto .boton .resetear {
+  color: #FFFFFF;
+  background-color: #8A8787;
+  width: 110px;
+  height: 40px;
+  border-radius: 15px;
+  padding-top: 10px;
+  padding-left: 24px;
+}
+.contacto .boton .enviar {
+  color: #FFFFFF;
+  background-color: #F0A83E;
+  width: 110px;
+  height: 40px;
+  border-radius: 15px;
+  padding-top: 10px;
+  padding-left: 34px;
+  cursor: pointer;
+  display: inline-block;
+}
+.contacto .boton .enviar:hover {
+  background: #001D2D;
+  color: white;
+}
+.contacto .boton .enviar:active {
+  background: #001D2D;
+  color: white;
+}
+
+.suscripcion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #FFFFFF;
+  background-color: #F0A83E;
+  padding: 15px;
+  flex-direction: row;
+}
+.suscripcion .novedades-suscripcion {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.suscripcion .novedades-suscripcion .mensaje {
+  font-size: 20px;
+  font-weight: bold;
+}
+.suscripcion .correo-suscripcion {
+  display: flex;
+  gap: 10px;
+}
+.suscripcion .correo-suscripcion .correo {
+  color: #A0A0A0;
+  background-color: #FFFFFF;
+  font-size: 9px;
+  border-radius: 15px;
+  width: 271px;
+  height: 40px;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+.suscripcion .correo-suscripcion .boton-suscripcion {
+  background-color: #3C2313;
+  font-size: 9px;
+  width: 70px;
+  height: 34px;
+  border-radius: 15px;
+  padding-top: 12px;
+  padding-left: 12px;
+}
+
+.pie-pagina {
+  color: #FFFFFF;
+  background-color: #3C2313;
+  display: flex;
+  justify-content: space-between;
+}
+.pie-pagina .informacion {
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+  padding-top: 25px;
+}
+.pie-pagina .informacion .texto-informacion {
+  color: #FFFFFF;
+  padding-left: 30px;
+}
+.pie-pagina .informacion .texto-informacion .texto1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.pie-pagina .informacion .texto-informacion .texto2 {
+  font-size: 10px;
+}
+.pie-pagina .imagen-logo {
+  font-weight: bold;
+  font-weight: bold;
+  color: #FFFFFF;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  padding-top: 90px;
+  padding-right: 80px;
+}
+.pie-pagina .imagen-logo .gato-perro {
+  color: #F0A83E;
+}
+.pie-pagina .imagen-logo .gato-perrofont-logo-final {
+  color: #FFFFFF;
+}
+
+.derechos {
+  display: flex;
+  justify-content: center;
+  background-color: #222222;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 10px;
+  height: 20px;
+  padding-top: 5px;
+}/*# sourceMappingURL=style.css.map */
