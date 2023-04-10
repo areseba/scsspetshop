@@ -332,3 +332,9 @@
     height: 20px;
     padding-top: 5px;
 }
+
+@media screen and (max-width: 480px){
+    .imaagen-producto {
+        flex-direction: column;       
+    }
+}
